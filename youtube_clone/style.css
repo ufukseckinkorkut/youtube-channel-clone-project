@@ -1,0 +1,215 @@
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#topbar {
+    display: flex;
+    position: relative;
+    background-color: #0f0f0f;
+    height: 57px;
+
+}
+
+.ytlogo {
+    position: absolute;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.searchbar {
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 640px;
+    border: 1px solid grey;
+    background-color: #0f0f0f;
+    width: 590px;
+    height: 35px;
+    color: white;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.mic {
+    position: absolute;
+    width: 20px;
+    margin-left: 1250px;
+    margin-top: 17px;
+}
+
+.upload {
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 21px;
+    width: 20px;
+}
+
+.bell {
+    position: absolute;
+    margin-left: 1800px;
+    margin-top: 20px;
+    width: 20px;
+}
+
+.usk {
+    position: absolute;
+    width: 30px;
+    margin-left: 1850px;
+    margin-top: 15px;
+}
+
+#vct {
+    display: flexbox;
+    position: relative;
+}
+
+.uskmid {
+    position: absolute;
+    margin-left: -1285px;
+    margin-top: 223px;
+    height: 162px;
+}
+
+.uskname {
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 540px;
+    margin-top: 14px;
+}
+
+.uskabone {
+    position: absolute;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 540px;
+    margin-top: 65px;
+}
+
+.about {
+    position: absolute;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 540px;
+    margin-top: 100px;
+
+}
+
+.btn {
+    position: absolute;
+    background-color: #272727;
+    color: #f1f1f1;
+    width: 132px;
+    height: 36px;
+    border: none;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#kanalo {
+    margin-left: -1100px;
+    margin-top: 350px;
+}
+
+#videoy {
+    margin-left: -960px;
+    margin-top: 350px;
+}
+
+.btn:hover {
+    background-color: #3f3f3f;
+}
+
+#midbar {
+    display: flex;
+    position: relative;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    column-gap: 20px;
+    margin-top: 185px;
+    margin-left: 353px;
+
+}
+
+#line {
+    width: 1850px;
+    margin-left: 70px;
+    height: 1px;
+    border: none;
+    background-color: #3f3f3f;
+    margin-top: -5px;
+}
+
+#homebar {
+    position: absolute;
+    margin-top: 42px;
+    width: 78px;
+    height: 2px;
+    background-color: #aaaaaa;
+    margin-left: -1px;
+    display: none;
+}
+
+.home:hover+#homebar {
+    display: block;
+
+}
+
+#oynatbar {
+    position: absolute;
+    width: 127px;
+    height: 2px;
+    margin-top: 42px;
+    margin-left: 181px;
+    background-color: #aaaaaa;
+    display: none;
+}
+
+.oynat:hover+#oynatbar {
+    display: block;
+}
+
+#toplulukbar {
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    background-color: #aaaaaa;
+    margin-top: 42px;
+    margin-left: 330px;
+    display: none;
+}
+
+.comun:hover+#toplulukbar {
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+    margin-left: 354px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.box {
+    width: 304px;
+    height: 171px;
+    border-radius: 12px;
+    cursor: pointer;
+}
